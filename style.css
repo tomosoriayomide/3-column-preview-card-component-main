@@ -1,0 +1,81 @@
+@font-face {
+  font-family: lexendecabold;
+  src: url(font_large/BigShouldersDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: lexendDeca_Font;
+  src: url(font/LexendDeca-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 10%;
+  background-color: blue;
+  display: flex;
+  border-radius: 12px;
+}
+.card1 {
+  /* border-radius: 12px; */
+  padding: 30px;
+  line-height: 20px;
+  width: 100%;
+}
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.img {
+  padding: 15px;
+  padding-left: 0px;
+}
+p {
+  font-family: lexendDeca_Font;
+  font-size: small;
+}
+.Learn {
+  padding: 10px;
+  border-radius: 20px;
+  width: 75%;
+  margin-top: 50px;
+  border: none;
+}
+#one {
+  color: hsl(31, 77%, 52%);
+}
+#two {
+  color: hsl(184, 100%, 22%);
+}
+#three {
+  color: hsl(179, 100%, 13%);
+}
+.head {
+  font-family: lexendecabold;
+  padding: 10px;
+  padding-left: 0px;
+  padding-bottom: 30%;
+  color: whitesmoke;
+}
+#onea {
+  color: hsl(31, 91%, 78%);
+}
+#oneb {
+  color: hsl(184, 44%, 54%);
+}
+#onec {
+  color: hsl(179, 49%, 38%);
+}
