@@ -57,11 +57,29 @@ p {
 #one {
   color: hsl(31, 77%, 52%);
 }
+#one:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
 #two {
   color: hsl(184, 100%, 22%);
 }
+#two:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
 #three {
   color: hsl(179, 100%, 13%);
+}
+#three:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
 }
 .head {
   font-family: lexendecabold;
@@ -80,15 +98,27 @@ p {
   color: hsl(179, 49%, 38%);
 }
 @media screen and (min-width: 320px) and (max-width: 520px) {
+  body {
+    padding: 20px;
+  }
   .cont {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   #sedan {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    padding: 10px;
+    padding-left: 30px;
+  }
+  .head {
+    padding-bottom: 30px;
+  }
+  .img {
+    padding-bottom: 20px;
   }
   #luxury {
     border-bottom-left-radius: 12px;
